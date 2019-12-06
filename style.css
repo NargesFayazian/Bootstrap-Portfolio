@@ -133,17 +133,33 @@
 @keyframes fishR { 
     0% { 
         margin-left:50%;
-        /* transform:scaleX(-1); */
+        margin-top:-10%;
     }
 
     100% { 
-        margin-left:2%;
-        /* transform:scaleX(1); */
-         
+        margin-left:2.3%;
+        margin-top:1.3%;
     }
 }
 /* --------------------------left------------------------------------- */
+
 @keyframes fish { 
+    0% {
+        margin-top:1.5%;
+
+        margin-left:-50%;
+        
+    }
+
+    100% {
+        margin-top:1.5%;
+        margin-left:1.7%;
+        
+         
+    }
+}
+/* ----------------------------------------fish loop--------------------------------------- */
+@keyframes fishLoop { 
     0% { 
         margin-left:-60%;
         
@@ -183,10 +199,9 @@
 .x1 {
      -webkit-animation: fish 25s linear infinite;
     -moz-animation: fish 25s linear infinite; 
-    animation: fish 25s linear infinite;
-    
-    left: 5%;
-    top: 5%;
+    animation: fish 20s  ease-in-out ;
+    margin-top:1.5%;
+    margin-left:1.7%;
     
      /* -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
@@ -248,15 +263,11 @@
 
 .x6 {
     -webkit-animation: fishR 25s linear infinite, reverse;
-    -moz-animation: fishR25s linear infinite, reverse; 
-    animation: fishR 20s linear infinite, reverse;
-    
-    left: 5%;
-    top: 5%;
-    
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6) rotate(20deg);
+    -moz-animation: fishR 25s linear infinite, reverse; 
+    animation: fishR 20s ease-in-out , reverse;
+    margin-left:2.3%;
+    margin-top:1.3%;
+     
 }
 
 

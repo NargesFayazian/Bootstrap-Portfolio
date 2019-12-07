@@ -137,26 +137,34 @@
         margin-top:-10%;
     }
 
+    50% { 
+        margin-left:2.1%;
+        margin-top:0.1%;
+       
+    }
     100% { 
         margin-left:2.1%;
         margin-top:0.1%;
+       
     }
 }
 /* --------------------------left------------------------------------- */
 
 @keyframes fish { 
+    
     0% {
-        margin-top:0.1%;
-
-        margin-left:-50%;
         
+        margin-top:0.1%;
+        margin-left:-50%;
     }
-
-    100% {
+    50% {
         margin-top:0.1%;
         margin-left:1.1%;
         
-         
+    }
+    100%{
+        margin-top:0.1%;
+        margin-left:1.1%;
     }
 }
 /* ----------------------------------------fish loop--------------------------------------- */
@@ -198,10 +206,11 @@
 /* -------------------------------------------------------------------------------- */
 
 .x1 {
+   
     width: 100%;
-     -webkit-animation: fish 25s linear infinite;
-    -moz-animation: fish 25s linear infinite; 
-    animation: fish 20s  ease-in-out ;
+     -webkit-animation: fish 40s ease-in-out  ;
+    -moz-animation: fish 40s  ease-in-out  ; 
+    animation: fish 40s  ease-in-out infinite ;
     margin-top:0.1%;
     margin-left:1.1%;
     
@@ -266,12 +275,11 @@
 
 .x6 {
     width: 100%;
-    -webkit-animation: fishR 25s linear infinite, reverse;
-    -moz-animation: fishR 25s linear infinite, reverse; 
-    animation: fishR 20s ease-in-out , reverse;
+    -webkit-animation: fishR 40s  ease-in-out , reverse;
+    -moz-animation: fishR 40s  ease-in-out , reverse; 
+    animation: fishR 40s ease-in-out infinite ,reverse;
     margin-left:2.1%;
     margin-top:0.1%;
-     
 }
 
 

@@ -1,19 +1,20 @@
 #inter{
     margin-top:29vh ;
+    position: absolute;
 }
- @keyframes circle1 {
-    0% { border-radius: 50%; }
-    20%{border-radius: 25%;}
-    40%{border-radius: 5%;}
-    60%{border-radius: 5%;}
-    80%{border-radius: 25%;}
-    100% { border-radius: 50%; }
-  } 
+ @keyframes circle {
+   0% { border-radius: 50%;}
+    25%{border-radius: 25%;}
+    50%{border-radius: 5%;}
+    75%{border-radius: 25%;}
+    100% { border-radius: 50%; } 
+  }  
 .toggle {
-    background-color: #ed5565;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    background-color:(255, 255, 255, 1);
     text-align: center;
-    height: 100px;
-    width: 100px;
+    height: 5vw;
+    width: 5vw;
     border-radius: 50%;
     position: absolute;
     margin-left: auto;
@@ -21,9 +22,8 @@
     bottom: 0px;
     left: 0px;
     right: 20px;
-    animation-name:circle1 ;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation: circle 2s infinite;
+    z-index: 1;
   
 }
   @keyframes changeSize {
@@ -31,13 +31,14 @@
    
   }
   .fa-plus{
+     
     font-size: 60px;
-    color: white;
+    color:#ed5565;
     display: block;
-    margin-top: 20px;
-    right: 20px;
+    margin-top: 7px;
+    right: 7px;
     transition: 0.7s;
-    animation: changeSize 6s linear infinite;
+    animation: changeSize 6s linear infinite ;
   }
   
   .menu {
@@ -50,7 +51,6 @@
     bottom: 0px;
     left: 0px;
     right: 20px;
-    z-index: -1;
     transition: 0.7s;
   }
   
@@ -100,4 +100,7 @@
   a:hover {
     color: #ed5565;
   }
+  
+
+  /* -------------------------------------------------------------------- */
   

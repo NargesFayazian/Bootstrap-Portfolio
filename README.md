@@ -1,4 +1,4 @@
-<img src="/assets/Images/screen.png" style="wight:6.51ch; hight:2.17ch">
+<img src="/assets/screen.png" style="wight:6.51ch; hight:2.17ch">
 <h4>Portfolio:</h4>
 <h5>Hi!</h5>
 I'm Narges,

@@ -10,7 +10,8 @@ Front End Developer.
 <hr>
 <h4>How connect to me:</h4>
 
-<p>www.linkedin.com/in/narges-fayazian</br>
+<p>
+  Linkedin:www.linkedin.com/in/narges-fayazian</br>
 Email: Narges.fayazian@gmail.com</br>
 </p>
 <hr>

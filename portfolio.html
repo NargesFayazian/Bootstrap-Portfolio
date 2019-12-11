@@ -4,55 +4,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Felipa|Geostar+Fill|Libre+Barcode+39+Extended+Text|Press+Start+2P|Stalemate|Orbitron|Rock+Salt|Lobster|Mukta|Audiowide|+One&display=swap"
+        rel="stylesheet">
     <title>Portfolio</title>
-    <link rel="stylesheet" media="screen and (min-width: 980px)" href="widescreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="smallscreen.css">
-    <link rel="stylesheet" media="screen and (min-width: 640px)" href="widescreen.css">
-    <link href="https://fonts.googleapis.com/css?family=Enriqueta|Cardo|EB+Garamond|Muli|Vollkorn&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <link href="menu.css" rel="stylesheet" type="text/css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Enriqueta|Cardo|EB+Garamond|Muli|Vollkorn&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </head>
-<body >
-    <ul class="nav justify-content-center" style="background-color: #f4f3f3;background-image: linear-gradient(to right,#fff 0%,#f4f3f3 20%,#f4f3f3 50%,#f4f3f3 80%,#fff 100%); ">
-            <li class="nav-item">
-                    <a class="nav-link  text-dark" href="index.html">home</a>
-                </li>
-        <li class="nav-item">
-            <a class="nav-link  text-dark" href="about-me.html">about me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="portfolio.html">portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="contact.html">contact me</a>
-        </li>
-        </ul>
-        <div class="container" style="background-color: #bfd8d5;background-image: linear-gradient(to right,#fff 0%,#bfd8d5 8%,#bfd8d5 50%,#bfd8d5 92%,#fff 100%); ">
-            <div class="row" >
-                <div class="card mb-3" style="margin: 5%" >
-                    <div class="row no-gutters" style="max-width:540x;">
-                        <div class="col-md-4">
-                            <img src="./assets/5.png" class="card-img" alt="shield-dental">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Shield Dental Care</h5>
-                                <p class="card-text">• Created a WordPress template using HTML and CSS practices.<br>  • Optimized web assets for speed and performance.<br>  • Utilized programming capabilities in PHP, SQL and JavaScript and other libraries as needed.<br>  • Established web hosting for the site and uploaded the site to the hosting account.<br>  • Designed, implemented and monitored web pages and sites for continuous improvement in a fast-paced environment.<br> • Implemented Google Campaigns and SEO for various types of websites. </p>
-                                <a href="http://www.shielddentalcare.com" class="btn btn-primary text-dark" style="background-color:#bfd8d5">See Website</a>
-                            </div>
-                        </div>
-                    </div>
+<style>
+    body {
+    background: #c5c0b7;
+	color: #222;
+	height: 100%;
+	font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    }
+    #titleR{
+        text-align:center;
+        align-content: center;
+    }
+    .diagonal-bg{
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Playfair Display', serif;
+}
+h1{
+	font-size: 4rem;
+	line-height: 1.25;
+	text-transform: uppercase;
+}
+p{
+	margin-top: 0;
+    margin-bottom: 2em;
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+}
+main{
+    
+	width: 70%;
+	margin: 5em auto;
+	@media(min-width: 400px){
+		width: 65%;
+	}
+	@media(min-width: 600px){
+		width: 50%;
+	}
+	h1{
+		text-align: center;
+	}
+}
+</style>
+
+<body>
+<!-- -------------------menu Right----------------------------------------------- -->
+  <ul class=" nav justify-content-end">
+                <div class="toggle" id="toggle" onclick="menu-expand()">
+                    <i class="fa fa-plus" id="plus"></i>
                 </div>
-            </div>
-        </div>
-    <footer class="container" style="background-color: #b1bed5;background-image: linear-gradient(to right,#fff 0%,#b1bed5 20%,#b1bed5 50%,#b1bed5 80%,#fff 100%); ">
-        <div class="row">
-            <div class="col">
-                <p class="text-center"style="font-size:10px;margin-top:5px;">Copy right@ Narges Fayazian</p>
-            </div>
-        </div>
-    </footer>  
+                <div class="menu" id="menu">
+                    <a href="./index.html"><i class="fa fa-home"></i></a>
+                    <a href="https://github.com/NargesFayazian" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                    <a href="http://www.linkedin.com/in/narges-fayazian-51503834" target="_blank"><i
+                            class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-phone-square"></i></a>
+                    <a href="./portfolio.html" alt="resume"><i class="fa fa-file"></i></a>
+                </div>
+                </ul>
+                <script>
+                    var i = 0;
+                    function expand() {
+                        if (i == 0) {
+                            document.getElementById("toggle").style.top = "100px";
+                            document.getElementById("toggle").style.right = "120px";
+                            document.getElementById("menu").style.top = "100px";
+                            document.getElementById("menu").style.right = "120px";
+                            document.getElementById("menu").style.transform = "scale(3)";
+                            document.getElementById("plus").style.transform = "rotate(45deg)";
+
+                            i = 1;
+                        }
+                        else {
+                            document.getElementById("toggle").style.top = "20px";
+                            document.getElementById("toggle").style.right = "20px";
+                            document.getElementById("menu").style.top = "20px";
+                            document.getElementById("menu").style.right = "20px";
+                            document.getElementById("menu").style.transform = "scale(0)";
+                            document.getElementById("plus").style.transform = "rotate(0deg)";
+
+                            i = 0;
+                        }
+                    }
+                </script>
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<main>
+<div id="titleR">
+    <h1 >
+        Narges Fayazian
+</h1>
+
+   <span>Virginia, Springfield | Phone: 703-345-8530 | Email: Narges.fayazian@gmail.com</span></br>
+   <span> LinkedIn: https://www.linkedin.com/in/narges-fayazian/</span></br>
+   <span> GitHub: https://github.com/NargesFayazian</span>
+
+<hr ize="3" noshade>
+<h3 >SUMMARY</h3>
+
+Full Stack Web Developer with a background in Information Technology, providing strong problem-solving skills with a keen eye for aesthetics and presentation. An excellent collaborator who works well in team-based projects and independently with very strong interpersonal skills. With each project, the aim is to provide simple, robust solutions to problems specified by the client. Effectively leverage interest in solving complex problems by contributing as a part of a fast-paced, quality-driven team. 
+
+</br>
+</br>
+<h3>TECHNICAL SKILLS</h3>
+
+Node.js | Express | JavaScript | jQuery | React.js | React | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS | Bootstrap | Media Queries | APIs | Excel | Microsoft Suite | Heroku | Command Line| MySQL | JSON | PHP | WordPress |ORM |Java
+
+</div>
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------- -->
+<hr ize="3" noshade>
+<h3 id="titleR">PROJECTS</h3>
+
+<strong>BY Friends | Front-End Developer</strong><br>
+<strong>Website:</strong>&nbsp; &nbsp;www.byfriends.shop</br>
+An app that allows users to send personal or public events to their friends (the same party or festival). In addition to informing and coordinating, they can buy and deliver (food, coffee…) from their friends (small social network to help each other) when they can't do that.</br>
+<ul>
+  <li>&nbsp; &nbsp; &nbsp; <strong>Role</strong>: Core responsibilities entailed project management and quality assurance, as well as working on the front-end of the application.</li>
+  <li>&nbsp; &nbsp; &nbsp; &nbsp;<strong>Utilized</strong>: HTML, CSS, MySQL, JS, jQuery, API, Nodejs, Express, Sequalize, Azure services.</li>
+</ul>
+
+</br>
+
+
+        <strong>Shield Dental Care | Web Developer</strong></br>
+        <strong>Website:</strong>&nbsp; &nbsp; www.shielddentalcare.com</br>
+A CMS Web site that allows users and patients information on related dental also has features for make schedule, review, event, and a lot of information about dental services that they provide.</br>
+        <ul>
+            <li>&nbsp; &nbsp; &nbsp;<strong>Role:</strong>Core responsibilities entailed project management, subsystems, a WordPress template, quality assurance, and Designed, implemented, and monitored web pages.</li>
+            <li>&nbsp; &nbsp; &nbsp;<strong>Utilized</strong> HTML, CSS, PHP, JS, WordPress, SEO.</li>
+        </ul>
+
+</br>
+
+<strong>Web Developer Assistance:</strong></br>
+<strong>work at:</strong>Farsana Co&nbsp; &nbsp; </br>
+        Created, customized and developed Drupal module and Facebook application at a customer's request.</br>
+                <ul>
+                        <li>&nbsp; &nbsp; &nbsp;<strong>Role:</strong> Examined and developed better features of an existing app to provide.</li>
+                    <li>&nbsp; &nbsp; &nbsp;<strong>Utilized:</strong> Drupal, Json, Facebook App</li>
+                </ul>
+
+<hr ize="3" noshade>
+<h3 id="titleR">EXPERIENCE</h3>
+
+<strong>Shield Dental Care,</strong> Burke, VA&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;7/2017 – 10/2018</br>					
+<strong>Web Developer</strong> </br>
+        Designed, developed, delivered and implemented websites for better interaction with patients and relative to dental information.</br>
+        <ul>
+                <li>&nbsp; &nbsp; &nbsp;Subsystems a WordPress template using HTML and CSS practices</li>
+                <li>&nbsp; &nbsp; &nbsp;Utilized programming capabilities in PHP, SQL and JavaScript, and other libraries as needed.</li>
+                <li>&nbsp; &nbsp; &nbsp;Established web hosting for the site and uploaded the site to the hosting account.</li>
+                <li>&nbsp; &nbsp; &nbsp;Designed, implemented, and monitored web pages and sites for continuous improvement</li>
+                <li>&nbsp; &nbsp; &nbsp;STo purchase Google Campaigns and SEO for various types of websites.</li>
+            </ul>
+    	
+        
+
+</br>
+
+        <strong>Fairfax Public School,</strong>Fairfax, VA&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;02/2016 – 01/2017</br>					
+        <strong>Substitute Teacher</strong></br>
+        Worked as a Substitute Teacher to perform the instructional and classroom management processes for teachers who are absent for a day or longer periods. Effectively managed the classroom, reviewed lessons, collected and graded assignments, while providing structure in the teachers’ absence.
+        
+
+<hr ize="3" noshade>
+<h3 id="titleR">EDUCATION</h3>
+
+<strong>George Washington University,</strong> Arlington, VA </br>
+<strong>Full Stack Web Development | Coding Certificate | 2019</strong> </br>
+         technical programming and market-driven skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL
+        
+
+</br>
+</br>
+</br>
+
+        <strong>Islamic Azad University of Qazvin,</strong> Qazvin, Iran</br>
+        <strong>Bachelors of Information Technology</strong>
+        
+
+
+</main>
+<div class="diagonal-bg">
+    <svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><line x1='100%' y1='0' x2='1' y2='100%' stroke=rgb(216,239,243) stroke-width='30%'/></svg>
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+<script>
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+	$(".diagonal-bg svg line").attr("stroke-width",  ((30 + scroll/10)  + "%"));
+	//30 is the starting width
+	//alter the amount of growth by changing scroll/x
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- -------------------------------self Inter ----------------------------------------------------------- -->
+
+                <!-- 
+<div class="text">
+    <div class="row">
+        <div class="col" >  
+  <p id ="titleSkill"> My Skills</p>
+  </div>
+  </div>
+    <p>
+        <span class="word1 wisteria1" ></span>
+        <span class="word1 wisteria1" >FontEnd: </span>
+        <span class="word1 belize1">BackEnd:</span>
+        <span class="word1 pomegranate1">Technology:</span>
+        <span class="word1 green1">Tools</span>
+    </p>
+    <p>
+      -----------------------frontend--------------------------------------- -->
+                <!-- <span class="word wisteria" ></span>
+      <span class="word wisteria" >HTML.</span>
+      <span class="word belize">CSS.</span>
+      <span class="word pomegranate">JavaScript.</span>
+      <span class="word green">bootstrap.</span>  -->
+                <!-- --------------------------backend----------------- -->
+                <!-- <span class="word wisteria" >Node js.</span>
+      <span class="word belize">Express.</span>
+      <span class="word pomegranate">Mysql.</span>
+      <span class="word green">Mango DB.</span> -->
+                <!-- ----------------------------------technology------------------------ -->
+                <!-- <span class="word wisteria" >tech 1.</span>
+      <span class="word belize">tech 2</span>
+      <span class="word pomegranate">tech 3.</span>
+      <span class="word green">tech 4.</span> -->
+                <!-- ---------tools--------------------------------------- -->
+                <!-- <span class="word wisteria" >viual Stedio.</span> 
+      <span class="word belize">commend line.</span>
+      <span class="word pomegranate">github.</span>
+      <span class="word green">office.</span>
+    </p>
+  </div> -->
+
+                <!-- <div class="left">
+      <div  id="inter">
+        <p><span >Hi</span></p></br><p><span>I'm Narges,</span></p></br><p><span>Web Developer.</span></p></br>
+         <p><span id="sub">Front End Developer / Web Developer / Wordpress</span></p> -->
+                <!-- <div id="messenger"></div>
+      </div>
+    </div> -->
+
+
+
 </body>
+<script src="script.js"></script>
+
 </html>

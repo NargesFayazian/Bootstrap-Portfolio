@@ -1,7 +1,7 @@
 #background-wrap {
     bottom: 0;
     left: 0;
-    position: absolute;;
+    position: absolute;
     right: 0;
     top: 0;
     z-index: -1;
@@ -138,16 +138,42 @@
     }
 
     50% { 
-        margin-left:2.1%;
-        margin-top:0.1%;
+        margin-left:0.2%;
+        margin-top:-1%;
        
     }
     100% { 
-        margin-left:2.1%;
-        margin-top:0.1%;
+        margin-left:0.2%;
+        margin-top:-1%;
        
     }
 }
+@keyframes fishX13 { 
+    0% { 
+        margin-left:40%;
+        margin-top:13%; 
+        
+    }
+    100% { 
+        margin-left:1%;
+        margin-top:13%; 
+         
+    }
+}
+
+@keyframes fishX14 { 
+    0% { 
+        margin-left:60%;
+        margin-top:-7%;
+        
+    }
+    100% { 
+        margin-left:1%;
+        margin-top:-7%;
+        
+    }
+}
+
 /* --------------------------left------------------------------------- */
 
 @keyframes fish { 
@@ -158,51 +184,45 @@
         margin-left:-50%;
     }
     50% {
-        margin-top:0.1%;
+        margin-top:-1%;
         margin-left:1.1%;
         
     }
     100%{
-        margin-top:0.1%;
+        margin-top:-1%;
         margin-left:1.1%;
     }
 }
-/* ----------------------------------------fish loop--------------------------------------- */
-@keyframes fishLoop { 
+@keyframes fishX11 { 
+    
+    0% {
+        
+        margin-top:-10%;
+        margin-left:-50%;
+    }
+    50% {
+        margin-top:-0.2%;
+        margin-left:0.8%;
+        
+    }
+    100%{
+        margin-top:-0.2%;
+        margin-left:0.8%;
+    }
+}
+@keyframes fishX12 { 
+    
     0% { 
         margin-left:-60%;
-        
-    }
-    40% { 
-        margin-left:0%;
-        transform:scaleX(1);
-        /* transform:scaleX(-1); */
-        
-    }
-    40.5% { 
-        margin-left:0%;
-        transform:scaleX(-1);
-        /* animation-direction: reverse; */
-        /* transform:scaleX(-1); */
-        
-    }
-    99% { 
-        margin-left:-60%;
-    }
-    99.5% { 
-        margin-left:-60%;
-        transform:scaleX(-1);
-        /* transform:scaleX(-1); */
-        
+        margin-top:5%;
     }
     100% { 
-        margin-left:-60%;
-        transform:scaleX(1);
-        /* transform:scaleX(-1); */
-        
+        margin-left:-1%;
+        margin-top:5%;
     }
 
 }
+
 /* -------------------------------------------------------------------------------- */
 
 .x1 {
@@ -211,7 +231,7 @@
      -webkit-animation: fish 40s ease-in-out  ;
     -moz-animation: fish 40s  ease-in-out  ; 
     animation: fish 40s  ease-in-out infinite ;
-    margin-top:0.1%;
+    margin-top:-1%;
     margin-left:1.1%;
     
 }
@@ -271,6 +291,27 @@
     -moz-transform: scale(0.3);
     transform: scale(0.2);
 }
+.x11 {
+   
+    width: 100%;
+     -webkit-animation: fishX11 60s ease-in-out  ;
+    -moz-animation: fishX11 60s  ease-in-out  ; 
+    animation: fishX11 60s  ease-in-out infinite ;
+    margin-top:-0.2%;
+        margin-left:0.8%;
+    
+}
+.x12{
+    width: 100%;
+    -webkit-animation: fishX12 45s ease-in-out  ;
+   -moz-animation: fishX12 45s  ease-in-out  ; 
+   animation: fishX12 45s  ease-in-out infinite ;
+   left: 20%;
+    top: 0;
+     -webkit-transform: rotate(-270deg);
+    -moz-transform: rotate(-270deg);
+    transform: rotate(-270deg); 
+}
 /* --------------------------------------squer------------------------------------------------------------ */
 
 .x6 {
@@ -278,10 +319,33 @@
     -webkit-animation: fishR 40s  ease-in-out , reverse;
     -moz-animation: fishR 40s  ease-in-out , reverse; 
     animation: fishR 40s ease-in-out infinite ,reverse;
-    margin-left:2.1%;
-    margin-top:0.1%;
+    margin-left:0.2%;
+    margin-top:-1%;
 }
+.x13 {
+    width: 100%;
+    -webkit-animation: fishX14 50s  ease-in-out , reverse;
+    -moz-animation: fishX14 50s  ease-in-out , reverse; 
+    animation: fishX13 50s ease-in-out infinite ,reverse;
+    left: 80%;
+    top: 10%;
+    -webkit-transform: rotate(-75deg);
+    -moz-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+    
+}
+.x14{
+    width: 100%;
+    -webkit-animation: fishX14 30s  ease-in-out , reverse;
+    -moz-animation: fishX14 30s  ease-in-out , reverse; 
+    animation: fishX14 30s ease-in-out infinite ,reverse;
+    left: 65%;
+    top: 70%;
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    transform: rotate(-50deg);
 
+}
 
 .x7 {
     width: 100%;
@@ -459,40 +523,40 @@
 
 .bubble {
     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    
-    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-    
-    height: 200px;
-    position: absolute;
-    width: 200px;
-}
-
-.bubble:after {
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    
-    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
-    -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
-    box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
-    
-    content: "";
-    height: 180px;
-    left: 10px;
-    position: absolute;
-    width: 180px;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		
+		-webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+		-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+		box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+		
+		height: 200px;
+		position: absolute;
+		width: 200px;
+	}
+	
+	.bubble:after {
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+		background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		
+		-webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+		-moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+		box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+		
+		content: "";
+		height: 180px;
+		left: 10px;
+		position: absolute;
+		width: 180px;
 }
 /* --------------------------squer--------------------------------------------------------------------- */
 .squer {

@@ -4,8 +4,13 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Felipa|Geostar+Fill|Libre+Barcode+39+Extended+Text|Press+Start+2P|Stalemate|Orbitron|Rock+Salt|Lobster|Audiowide|+One&display=swap" rel="stylesheet">
       <title>Portfolio</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
       <link href="style.css" rel="stylesheet" type="text/css">
       <link href="wave.css" rel="stylesheet" type="text/css">
       <link href="menu.css" rel="stylesheet" type="text/css">
@@ -16,33 +21,34 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
   <style>
- /* body{
-    background-image: url("./assets/4.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center center;
-    background-attachment: fixed;
-    
-} */
-
-  </style>
+  body{
+  font-weight: 600;
+  font-size: 40px;
+   background-image: url(./assets/pic1.png) ;
+   background-repeat: no-repeat;
+  background-size: cover;
   
+
+}
+  </style>
   <body >
-      
       <div class="row">
           <div class="col" >
-              <img src="./assets/4.png" style="width:100%; position: absolute;z-index: -1;"></img>
               <!-- ----------bubble and fish----------------------------------------- -->
-            <div id="background-wrap" >
-              <img src="./assets/fish2.png" class="x1"></img>
+              <div id="background-wrap" >
+              <div><img src="./assets/fish2.png" class="x1"></img></div>
+              <div id="background-wrap" ><img src="./assets/fish3.png" class="x11"></img></div>
+              <div id="background-wrap" ><img src="./assets/fish6.png" class="x12"></img></div> 
+              
               <div class="bubble x2"></div>
               <div class="bubble x3"></div>
               <div class="bubble x4"></div>
               <div class="bubble x5"></div>
             </div>
-            
                 <div id="background-wrap" >
-              <img src="./assets/fish.png" class="x6"></img>
+                    <div id="background-wrap" ><img src="./assets/fish.png" class="x6"></img></div>
+                      <div id="background-wrap" ><img src="./assets/fish4.png" class="x13"></img></div>
+                        <div id="background-wrap" ><img src="./assets/fish5.png" class="x14"></img></div>
               <div class="squer x7"></div>
               <div class="squer x8"></div>
               <div class="squer  x9"></div>
@@ -52,7 +58,7 @@
 <!-----------------------------plant----------------------------------------------- -->
           <div id="background-wrap" >
               <div>
-                  <img src="./assets/plant3.png" class="plant_3"></img>
+                  <img src="./assets/plant4.png" class="plant_3"></img>
                   
               </div>
           </div>
@@ -61,13 +67,7 @@
                   <img src="./assets/plant2.png" class="plant_2"style="width:100%;></img>
               </div>
           </div>
-<!-- -------------------------------------------------------------------------------- -->
-      </div>
-  </div>
-
-
-
-<!-- -------------------menu------------------------------------------------ -->
+<!-- -------------------menu Right----------------------------------------------- -->
   <ul class="nav justify-content-end">
     <div class="toggle" id="toggle" onclick="menu-expand()">
       <i class="fa fa-plus" id="plus"></i>
@@ -75,10 +75,8 @@
       <div class="menu" id="menu">
         <a href="#"><i class="fa fa-home"></i></a>
          <a href="https://github.com/NargesFayazian" target="_blank"><i class="fa fa-github"></i></a>
-        <a href="#"><i class="fa fa-envelope"></i></a>
         <a href="http://www.linkedin.com/in/narges-fayazian-51503834"target="_blank"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-phone-square"></i></a>
-        <a href="#"><i class="fa fa-compass"></i></a>
+        <a href="./portfolio.html" alt="resume"><i class="fa fa-file"></i></a>
       </div>
       </ul>
 <script>
@@ -105,19 +103,79 @@ function expand(){
     i=0;
   }
 }
-</script>  
-
-
+</script>    
 
 <!-- -------------------------------self Inter ----------------------------------------------------------- -->
 
-<div class="centered" id="inter">
-    <p class="mb-0"><span>Hi</span></br><span>I'm Narges,</span></br><span>Web Developer.</span></p>
-    <p>Front End Developer / Web Developer / Wordpress</p>
+<!-- 
+<div class="text">
+    <div class="row">
+        <div class="col" >  
+  <p id ="titleSkill"> My Skills</p>
   </div>
+  </div>
+    <p>
+        <span class="word1 wisteria1" ></span>
+        <span class="word1 wisteria1" >FontEnd: </span>
+        <span class="word1 belize1">BackEnd:</span>
+        <span class="word1 pomegranate1">Technology:</span>
+        <span class="word1 green1">Tools</span>
+    </p>
+    <p>
+      -----------------------frontend--------------------------------------- -->
+      <!-- <span class="word wisteria" ></span>
+      <span class="word wisteria" >HTML.</span>
+      <span class="word belize">CSS.</span>
+      <span class="word pomegranate">JavaScript.</span>
+      <span class="word green">bootstrap.</span>  -->
+      <!-- --------------------------backend----------------- -->
+      <!-- <span class="word wisteria" >Node js.</span>
+      <span class="word belize">Express.</span>
+      <span class="word pomegranate">Mysql.</span>
+      <span class="word green">Mango DB.</span> -->
+      <!-- ----------------------------------technology------------------------ -->
+      <!-- <span class="word wisteria" >tech 1.</span>
+      <span class="word belize">tech 2</span>
+      <span class="word pomegranate">tech 3.</span>
+      <span class="word green">tech 4.</span> -->
+      <!-- ---------tools--------------------------------------- -->
+      <!-- <span class="word wisteria" >viual Stedio.</span> 
+      <span class="word belize">commend line.</span>
+      <span class="word pomegranate">github.</span>
+      <span class="word green">office.</span>
+    </p>
+  </div> -->
+ 
+  <!-- <div class="left">
+      <div  id="inter">
+        <p><span >Hi</span></p></br><p><span>I'm Narges,</span></p></br><p><span>Web Developer.</span></p></br>
+         <p><span id="sub">Front End Developer / Web Developer / Wordpress</span></p> -->
+       <!-- <div id="messenger"></div>
+      </div>
+    </div> --> 
+  
+  
 
-
+   
+   <!-- <a href="https://www.example.co.uk">
+    <div id="btn1" class="button">
+      <h1>HOME</h1>
+    </div>
+  </a>
+  
+  <a href="https://www.example.co.uk">
+    <div id="btn2" class="button">
+      <h1>TUTORIALS</h1>
+    </div>
+  </a>
+  
+  <a href="https://www.example.co.uk">
+    <div id="btn3" class="button">
+      <h1>ABOUT</h1>
+    </div>
+  </a> --> 
 
 
   </body>
+  <script src="script.js"></script>
 </html>

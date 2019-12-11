@@ -1,0 +1,68 @@
+
+      <!-- 
+<div class="text">
+    <div class="row">
+        <div class="col" >  
+  <p id ="titleSkill"> My Skills</p>
+  </div>
+  </div>
+    <p>
+        <span class="word1 wisteria1" ></span>
+        <span class="word1 wisteria1" >FontEnd: </span>
+        <span class="word1 belize1">BackEnd:</span>
+        <span class="word1 pomegranate1">Technology:</span>
+        <span class="word1 green1">Tools</span>
+    </p>
+    <p>
+      -----------------------frontend--------------------------------------- -->
+      <!-- <span class="word wisteria" ></span>
+      <span class="word wisteria" >HTML.</span>
+      <span class="word belize">CSS.</span>
+      <span class="word pomegranate">JavaScript.</span>
+      <span class="word green">bootstrap.</span>  -->
+      <!-- --------------------------backend----------------- -->
+      <!-- <span class="word wisteria" >Node js.</span>
+      <span class="word belize">Express.</span>
+      <span class="word pomegranate">Mysql.</span>
+      <span class="word green">Mango DB.</span> -->
+      <!-- ----------------------------------technology------------------------ -->
+      <!-- <span class="word wisteria" >tech 1.</span>
+      <span class="word belize">tech 2</span>
+      <span class="word pomegranate">tech 3.</span>
+      <span class="word green">tech 4.</span> -->
+      <!-- ---------tools--------------------------------------- -->
+      <!-- <span class="word wisteria" >viual Stedio.</span> 
+      <span class="word belize">commend line.</span>
+      <span class="word pomegranate">github.</span>
+      <span class="word green">office.</span>
+    </p>
+  </div> -->
+
+      <!-- <div class="left">
+      <div  id="inter">
+        <p><span >Hi</span></p></br><p><span>I'm Narges,</span></p></br><p><span>Web Developer.</span></p></br>
+         <p><span id="sub">Front End Developer / Web Developer / Wordpress</span></p> -->
+      <!-- <div id="messenger"></div>
+      </div>
+    </div> -->
+
+
+
+
+      <!-- <a href="https://www.example.co.uk">
+    <div id="btn1" class="button">
+      <h1>HOME</h1>
+    </div>
+  </a>
+  
+  <a href="https://www.example.co.uk">
+    <div id="btn2" class="button">
+      <h1>TUTORIALS</h1>
+    </div>
+  </a>
+  
+  <a href="https://www.example.co.uk">
+    <div id="btn3" class="button">
+      <h1>ABOUT</h1>
+    </div>
+  </a> -->

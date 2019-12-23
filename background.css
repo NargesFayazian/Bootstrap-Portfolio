@@ -1,39 +1,37 @@
 #background-wrap {
-    bottom: 0;
-    left: 0;
     position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
+    z-index: 0;
     width: 100%;
+    height: 100%;
+    bottom: 0;
 }
 
 /* KEYFRAMES */
 
 @-webkit-keyframes animateBubble {
     0% {
-        margin-top:100% ;
+        top:70% ;
     }
     100% {
-        margin-top: -100%;
+        top:-100%;
     }
 }
 
 @-moz-keyframes animateBubble {
     0% {
-        margin-top: 100%;
+        top:70% ;
     }
     100% {
-        margin-top: -100%;
+        top:-100%;
     }
 }
 
 @keyframes animateBubble {
     0% {
-        margin-top: 100%;
+        top:70% ;
     }
     100% {
-        margin-top: -100%; 
+        top: -100%;
     }
 }
 
@@ -67,34 +65,34 @@
 /* ----------------------------------------------squer------------------------------------ */
 @-webkit-keyframes animateBubbleS {
     0% {
-        margin-top:100%;
+        top:70%;
         border-radius:2%;
     }
     100% {
-        margin-top: -100%;
+        top: -50%;
         border-radius:2%;
     }
 }
 
 @-moz-keyframes animateBubbleS {
     0% {
-        margin-top: 100%;
+        top:70%;
         border-radius:2%;
     }
     100% {
-        margin-top: -100%;
+        top: -50%;
         border-radius:2%;
     }
 }
 
 @keyframes animateBubbleS {
     0% {
-        margin-top:100%;
-        border-radius:2%; 
+        top:70%;
+        border-radius:2%;
     }
     100% {
-        margin-top: -100%;
-        border-radius:2%; 
+        top: -50%;
+        border-radius:2%;
     }
 }
 
@@ -130,101 +128,105 @@
         border-radius:2%; 
     }
 }
-/* -------------------------------------------------fishR---------------------------------- */
+/* -------------------------------------------------Fish Right---------------------------------- */
 @keyframes fishR { 
     0% { 
+        margin-top:-30%;
         margin-left:50%;
-        margin-top:-10%;
     }
 
     50% { 
-        margin-left:0.2%;
-        margin-top:-1%;
+        margin-top:-17%;
+        margin-left:14%;
        
     }
     100% { 
-        margin-left:0.2%;
-        margin-top:-1%;
+        margin-top:-17%;
+        margin-left:14%;
        
     }
 }
+.x6 {
+    width: 100%;
+    -webkit-animation: fishR 40s  ease-in-out , reverse;
+    -moz-animation: fishR 40s  ease-in-out , reverse; 
+    animation: fishR 40s ease-in-out infinite ,reverse;
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    transform: scale(0.2);
+}
 @keyframes fishX13 { 
     0% { 
-        margin-left:40%;
-        margin-top:13%; 
-        
+        margin-top:-10%;
+        margin-left:37%;
     }
     100% { 
-        margin-left:1%;
-        margin-top:13%; 
-         
+        margin-top:-22%;
+        margin-left:12%;
     }
+}
+
+.x13 {
+    width: 100%;
+    -webkit-animation: fishX13 50s  ease-in-out , reverse;
+    -moz-animation: fishX13 50s  ease-in-out , reverse; 
+    animation: fishX13 30s ease-in-out infinite ,reverse;
+    
+    -webkit-transform: rotate(-75deg);
+    -moz-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+    -webkit-transform: scale(0.12);
+    -moz-transform: scale(0.12);
+    transform: scale(0.12);
+    
 }
 
 @keyframes fishX14 { 
     0% { 
-        margin-left:60%;
-        margin-top:-7%;
-        
+        margin-top:0%;
+        margin-left:42%;
     }
     100% { 
-        margin-left:1%;
-        margin-top:-7%;
-        
+        margin-top:-4%;
+        margin-left:9%;
     }
 }
 
-/* --------------------------left------------------------------------- */
+.x14{
+    width: 100%;
+    -webkit-animation: fishX14 33s  ease-in-out , reverse;
+    -moz-animation: fishX14 33s  ease-in-out , reverse; 
+    animation: fishX14 33s ease-in-out infinite ,reverse;
+  
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    transform: scale(0.1);
+left:0;
+top:0;
+}
+
+/* --------------------------Fish left------------------------------------- */
 
 @keyframes fish { 
     
     0% {
         
-        margin-top:0.1%;
+        margin-top:15%;
         margin-left:-50%;
     }
     50% {
-        margin-top:0%;
-        margin-left:0.5%;
+        margin-top:15%;
+        margin-left:-10%;
         
     }
     100%{
-        margin-top:0%;
-        margin-left:0.5%;
-    }
-}
-@keyframes fishX11 { 
-    
-    0% {
-        
-        margin-top:-10%;
-        margin-left:-50%;
-    }
-    50% {
-        margin-top:-0.2%;
-        margin-left:0.8%;
-        
-    }
-    100%{
-        margin-top:-0.2%;
-        margin-left:0.8%;
-    }
-}
-@keyframes fishX12 { 
-    
-    0% { 
-        margin-left:-60%;
         margin-top:15%;
+        margin-left:-10%;
     }
-    100% { 
-        margin-left:-1%;
-        margin-top:15%;
-    }
-
 }
-
-/* -------------------------------------------------------------------------------- */
-
 .x1 {
    
     width: 100%;
@@ -233,45 +235,103 @@
     animation: fish 40s  ease-in-out infinite ;
     margin-top:0%;
     margin-left:0.5%;
+
+    -webkit-transform: scale(0.24);
+    -moz-transform: scale(0.24);
+    transform: scale(0.24);
     
 }
 
+@keyframes fishX11 { 
+    
+    0% {
+        
+        margin-top:-40%;
+        margin-left:-50%;
+    }
+    50% {
+        margin-top:-26.5%;
+        margin-left:-12.5%;
+        
+    }
+    100%{
+        margin-top:-26.5%;
+        margin-left:-12.5%;
+    
+}
+}
+.x11 {
+   
+    width: 100%;
+     -webkit-animation: fishX11 45s ease-in-out  ;
+    -moz-animation: fishX11 45s  ease-in-out  ; 
+    animation: fishX11 45s  ease-in-out infinite ;
+    margin-top:-0.2%;
+        margin-left:0.8%;
+
+        -webkit-transform: scale(0.13);
+    -moz-transform: scale(0.13);
+    transform: scale(0.143);
+    
+}
+
+@keyframes fishX12 { 
+    
+    0% { 
+        margin-top:-30%;
+        margin-left:-2%;
+    }
+    100% { 
+        margin-top:-53.2%;
+        margin-left:-1.5%;
+    }
+
+}
+.x12{
+    width: 100%;
+    -webkit-animation: fishX12 35s ease-in-out  ;
+   -moz-animation: fishX12 35s  ease-in-out  ; 
+   animation: fishX12 35s  ease-in-out infinite ;
+    -webkit-transform:rotate(-360deg) scale(0.06);
+    -moz-transform:rotate(-360deg) scale(0.06);
+    transform:rotate(-360deg) scale(0.06);
+}
+/* ----------------------------------------------Bubble------------------------------------------------ */
 .x2 {
     width: 100%;
-    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
-    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
-    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 30s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    animation: animateBubble 30s linear infinite, sideWays 5s ease-in-out infinite alternate;
     
     left: 5%;
-    top: 80%;
-    
-    -webkit-transform: scale(0.2);
-    -moz-transform: scale(0.2);
-    transform: scale(0.0);
+    top: 0%;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
 
 }
 .x3 {
     width: 100%;
-    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
-    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
-    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -webkit-animation: animateBubble 38s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 38s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 38s linear infinite, sideWays 3s ease-in-out infinite alternate;
     
     left: 10%;
-    top: 40%;
+    top: 65%;
     
-    -webkit-transform: scale(0.2);
-    -moz-transform: scale(0.2);
-    transform: scale(0.2);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
 }
 
 .x4 {
     width: 100%;
-    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -webkit-animation: animateBubble 32s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 32s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 32s linear infinite, sideWays 4s ease-in-out infinite alternate;
     
-    left: 20%;
-    top: 0;
+    left: 0%;
+    top: 65%;
     
     -webkit-transform: scale(0.3);
     -moz-transform: scale(0.3);
@@ -280,85 +340,32 @@
 
 .x5 {
     width: 100%;
-    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 30s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    animation: animateBubble 30s linear infinite, sideWays 5s ease-in-out infinite alternate;
     
     left: 30%;
-    top: 50%;
+    top: 65%;
     
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    transform: scale(0.2);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
 }
-.x11 {
-   
-    width: 100%;
-     -webkit-animation: fishX11 60s ease-in-out  ;
-    -moz-animation: fishX11 60s  ease-in-out  ; 
-    animation: fishX11 60s  ease-in-out infinite ;
-    margin-top:-0.2%;
-        margin-left:0.8%;
-    
-}
-.x12{
-    width: 100%;
-    -webkit-animation: fishX12 45s ease-in-out  ;
-   -moz-animation: fishX12 45s  ease-in-out  ; 
-   animation: fishX12 45s  ease-in-out infinite ;
-   left: 20%;
-    top: 0;
-     -webkit-transform: rotate(-270deg);
-    -moz-transform: rotate(-270deg);
-    transform: rotate(-270deg); 
-}
+
+
 /* --------------------------------------squer------------------------------------------------------------ */
-
-.x6 {
-    width: 100%;
-    -webkit-animation: fishR 40s  ease-in-out , reverse;
-    -moz-animation: fishR 40s  ease-in-out , reverse; 
-    animation: fishR 40s ease-in-out infinite ,reverse;
-    margin-left:0.2%;
-    margin-top:-1%;
-}
-.x13 {
-    width: 100%;
-    -webkit-animation: fishX14 50s  ease-in-out , reverse;
-    -moz-animation: fishX14 50s  ease-in-out , reverse; 
-    animation: fishX13 50s ease-in-out infinite ,reverse;
-    left: 80%;
-    top: 10%;
-    -webkit-transform: rotate(-75deg);
-    -moz-transform: rotate(-75deg);
-    transform: rotate(-75deg);
-    
-}
-.x14{
-    width: 100%;
-    -webkit-animation: fishX14 30s  ease-in-out , reverse;
-    -moz-animation: fishX14 30s  ease-in-out , reverse; 
-    animation: fishX14 30s ease-in-out infinite ,reverse;
-    left: 65%;
-    top: 70%;
-    -webkit-transform: rotate(-50deg);
-    -moz-transform: rotate(-50deg);
-    transform: rotate(-50deg);
-
-}
-
 .x7 {
     width: 100%;
     -webkit-animation: animateBubbleS 20s linear infinite, sideWaysS 2s ease-in-out infinite alternate;
     -moz-animation: animateBubbleS 20s linear infinite, sideWaysS 2s ease-in-out infinite alternate;
     animation: animateBubbleS 20s linear infinite, sideWaysS 2s ease-in-out infinite alternate;
     
-    left: 65%;
-    top: 70%;
+    left: 50%;
+    top: 65%;
     
-    -webkit-transform: scale(0.2);
-    -moz-transform: scale(0.2);
-    transform: scale(0.2);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
 }
 
 .x8 {
@@ -367,12 +374,12 @@
     -moz-animation: animateBubbleS 22s linear infinite, sideWaysS 3s ease-in-out infinite alternate;
     animation: animateBubbleS 22s linear infinite, sideWaysS 3s ease-in-out infinite alternate;
     
-    left: 80%;
-    top: 10%;
+    left: 56%;
+    top: 65%;
     
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
 }
 
 .x9 {
@@ -381,12 +388,12 @@
     -moz-animation: animateBubbleS 29s linear infinite, sideWaysS 4s ease-in-out infinite alternate;
     animation: animateBubbleS 29s linear infinite, sideWaysS 4s ease-in-out infinite alternate;
     
-    left: 90%;
-    top: 50%;
+    left: 70%;
+    top: 65%;
     
-    -webkit-transform: scale(0.2);
-    -moz-transform: scale(0.2);
-    transform: scale(0.);
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
 }
 
 .x10 {
@@ -395,20 +402,22 @@
     -moz-animation: animateBubbleS 26s linear infinite, sideWaysS 2s ease-in-out infinite alternate;
     animation: animateBubbleS 26s linear infinite, sideWaysS 2s ease-in-out infinite alternate;
     
-    left: 80%;
-    top: 80%;
+    left: 66%;
+    top: 65%;
     
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
 }
 /* ---------------------------plant-------------------------------------- */
-
-
-
 .plant_2{
-    margin-top: 1.7%;
-    width: 100%;
+    margin-top: 23%;
+    margin-left: 78%;
+    width: 10%;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.2);
+
 	transform-origin: center bottom;
 	-moz-transform-origin: center bottom;
 	-webkit-transform-origin: center bottom;
@@ -426,7 +435,8 @@
 	-webkit-animation-name:plant2;
 	-webkit-animation-duration:15s;
 	-webkit-animation-iteration-count:infinite;
-	-webkit-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    
 }
 @keyframes plant2{
 	from{
@@ -464,8 +474,9 @@
 
 
 .plant_3{
-    margin-top: 1.7%;
-    width: 100%;
+margin-top:15%;
+    margin-left: 20%;
+   width: 10%;
 	transform-origin: center bottom;
 	-moz-transform-origin: center bottom;
 	-webkit-transform-origin: center bottom;
@@ -483,7 +494,9 @@
 	-webkit-animation-name:plant3;
 	-webkit-animation-duration:15s;
 	-webkit-animation-iteration-count:infinite;
-	-webkit-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    transform: scale(0.3);
+
 }
 @keyframes plant3{
 	from{
@@ -509,7 +522,6 @@
 }
 @-webkit-keyframes plant3{
 	from{
-	-webkit-transform:skewX(3deg);
 	}
 	50%{
 	-webkit-transform:skewX(-3deg);
@@ -530,9 +542,9 @@
 		-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 		box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 		
-		height: 200px;
+		height: 20%;
 		position: absolute;
-		width: 200px;
+		width: 11%;
 	}
 	
 	.bubble:after {
@@ -553,10 +565,10 @@
 		box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
 		
 		content: "";
-		height: 180px;
+		height: 90%;
 		left: 10px;
 		position: absolute;
-		width: 180px;
+		width: 90%;
 }
 /* --------------------------squer--------------------------------------------------------------------- */
 .squer {
@@ -568,9 +580,9 @@
     -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
     
-    height: 200px;
+    height: 20%;
     position: absolute;
-    width: 200px;
+    width: 11%;
 }
 
 .squer:after {
@@ -591,10 +603,10 @@
     box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
     
     content: "";
-    height: 180px;
+    height: 90%;
     left: 10px;
     position: absolute;
-    width: 180px;
+    width: 90%;
 }
 /* ---------------------------------------------------------------------------------------------------- */
 .centered {

@@ -1,36 +1,61 @@
 
+
+.border-secondary{
+  
+  margin: 5% 5% 5% 5%;
+border: none;
+}
+/* -----------------------------------------section 1----------------------------------------- */
 @keyframes ImageN { 
     0% {
-        
+      
         opacity: 0;
         transform: translate3d(-20%,0,0);
     }
     100% {
+      
         opacity: 1;
         transform: none;
     }
     }
     .N{
-         width: 100%;
+      
+         width: 80%;
          -webkit-animation:ImageN  10s ease-in-out  ;
         -moz-animation:ImageN 10s  ease-in-out  ; 
-        animation:ImageN 10s  ease-in-out infinite ;
-        transform: scale(0.8);
+        animation:ImageN 10s  ease-in-out ;
+        font-size: 24px;
        filter:  drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
     }
+    .card-title{
+      font-weight: 400;
+      font-family: 'lux', sans-serif;
+      font-size: 1.5em;
+
+    }
+    .card-text{
+      font-weight: 200;
+      font-family: 'lux', sans-serif;
+      font-size: 1em;
+
+    }
+
     /* --------------------------------------section 2---------------------------------- */
     
     
     html { 
       font-size: 62.5%; } 
     body {
+      background-image: url("./assets/background.png") ;
+      background-repeat: no-repeat;
+      background-size:cover;
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
     font-family: 'lux', sans-serif;
-    color: #222;
-    background-color: #f6f6f6;
     overflow-y: scroll;
+   
+    
     }
     
     
@@ -60,16 +85,12 @@
     p {
       margin-top: 0; }
     
-    * {
-    box-sizing: border-box;
-    margin: 0;
-    }
-    
     section.intro {
     font-family: oswald;
     position: relative;
-    height: 100vh;
+    height: auto;
     width: 100%;
+    margin: 5% 1% 5% 1%;
     background: #f6f6f6;
     background: -moz-radial-gradient(center, ellipse cover, #f6f6f6 1%, #d3d3d3 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#f6f6f6), color-stop(100%,#d3d3d3));
@@ -94,7 +115,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    box-shadow: inset 0px 0px 64px 0px rgba(50,50,50,0.75);
+    
     }
     
     .hex-bg-big-text {
@@ -179,7 +200,7 @@
     .desc-active > p > span {
     display: inline-block;
     /* font-weight: bold; */
-    width: 125px;
+    width: 140px;
     }
     
     p.code-title {
@@ -211,21 +232,6 @@
     background-size: contain;
     background-position: right center;
     }
-    
-    .html-desc.desc-active::after {
-    background: url(https://i.imgur.com/0g3HZSF.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right center;
-    }
-    
-    .css-desc.desc-active::after {
-    background: url(https://i.imgur.com/poC0TYE.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right center;
-    }
-    
     .javascript-desc.desc-active::after {
     background: url(https://i.imgur.com/QjrmHkb.jpg);
     background-repeat: no-repeat;
@@ -240,13 +246,7 @@
     background-position: right center;
     }
     
-    .seo-desc.desc-active::after {
-    background: url(https://i.imgur.com/V9vAVUO.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right center;
-    }
-    
+   
     .hex-master-wrap {
     position: relative;
     /* width: 50%; */
@@ -296,15 +296,10 @@
     z-index: -1;
     /* transform: rotate(60deg); */
     }
-    
-    
-    
-    
-    
-    
     .intro-block .grid-1,
     .intro-block .grid-2,
-    .intro-block .grid-3 {
+    .intro-block .grid-3 ,
+    .intro-block .grid-4{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,6 +315,9 @@
     .intro-block .grid-2,
     .intro-block .grid-3 {
     margin-top: -50px;
+    }
+    .intro-block .grid-4{
+      margin-top: 5%; 
     }
     
     .hex-wrap {
@@ -404,13 +402,6 @@
     transform: rotate(-60deg);
     overflow: hidden;
     }
-    
-    
-    
-    
-    
-    
-    
     .hex-inner-2::before, .hex-inner-2::after {
     position: absolute;
     background-repeat: no-repeat;
@@ -466,17 +457,7 @@
     content: "";
     transform: rotate(60deg);
     }
-    
-    
-    
     /*------------------section 3----------------------------------------  */
-    *{
-        margin: 0;
-        padding: 0;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-      }
-      
       h1{
         font-size: 2.5rem;
         font-family: 'Montserrat';

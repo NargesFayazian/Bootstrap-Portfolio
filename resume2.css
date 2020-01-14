@@ -173,7 +173,7 @@ border: none;
     }
     
     .code-display::before {
-    content: "Expertise";
+    content: "TECHNICAL SKILLS";
     position: absolute;
     top: -70px;
     left: 0;
@@ -235,33 +235,52 @@ border: none;
     }
     
     .backend-desc.desc-active::after {
-    background: url(https://i.imgur.com/Dc8HgeM.png);
+    background: url(./assets/npm.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center;
     }
     
     .frontend-desc.desc-active::after {
-    background: url(https://i.imgur.com/QcfXSkf.jpg);
+    background: url(./assets/jquery.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center;
     }
     .javascript-desc.desc-active::after {
-    background: url(https://i.imgur.com/QjrmHkb.jpg);
+    background: url(./assets/javascript.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center;
     }
-    
-    .gui-desc.desc-active::after {
-    background: url(https://i.imgur.com/YmCqPpk.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right center;
-    }
-    
-   
+    .others.desc-active::after {
+      background: url(./assets/tech2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right center;
+      }
+      
+      .version-control.desc-active::after {
+      background: url(./assets/github-big-logo.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right center;
+      }
+      
+      .gui-desc.desc-active::after {
+      background: url(./assets/wordpress.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right center;
+      }
+      
+      .database.desc-active::after {
+      background: url(./assets/mysql.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right center;
+      }
+      
     .hex-master-wrap {
     position: relative;
     /* width: 50%; */

@@ -197,7 +197,6 @@
     -webkit-animation: fishX14 33s  ease-in-out , reverse;
     -moz-animation: fishX14 33s  ease-in-out , reverse; 
     animation: fishX14 33s ease-in-out infinite ,reverse;
-  
     -webkit-transform: rotate(-50deg);
     -moz-transform: rotate(-50deg);
     transform: rotate(-50deg);
@@ -235,11 +234,9 @@ top:0;
     animation: fish 40s  ease-in-out infinite ;
     margin-top:0%;
     margin-left:0.5%;
-
     -webkit-transform: scale(0.24);
     -moz-transform: scale(0.24);
     transform: scale(0.24);
-    
 }
 
 @keyframes fishX11 { 
@@ -268,7 +265,6 @@ top:0;
     animation: fishX11 45s  ease-in-out infinite ;
     margin-top:-0.2%;
         margin-left:0.8%;
-
         -webkit-transform: scale(0.13);
     -moz-transform: scale(0.13);
     transform: scale(0.143);
@@ -289,9 +285,9 @@ top:0;
 }
 .x12{
     width: 100%;
-    -webkit-animation: fishX12 35s ease-in-out  ;
-   -moz-animation: fishX12 35s  ease-in-out  ; 
-   animation: fishX12 35s  ease-in-out infinite ;
+    -webkit-animation: fishX12 27s ease-in-out  ;
+   -moz-animation: fishX12 27s  ease-in-out  ; 
+   animation: fishX12 27s  ease-in-out infinite ;
     -webkit-transform:rotate(-360deg) scale(0.06);
     -moz-transform:rotate(-360deg) scale(0.06);
     transform:rotate(-360deg) scale(0.06);
@@ -533,7 +529,19 @@ margin-top:15%;
 
 /* OBJECTS */
 
-
+.bubble {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    
+    height: 20%;
+    position: absolute;
+    width: 11%;
+}
 	
 	.bubble:after {
 		background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */

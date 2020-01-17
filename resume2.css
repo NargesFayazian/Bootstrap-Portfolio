@@ -18,8 +18,6 @@ border: none;
     }
     }
     .N{
-      
-      
          width: 80%;
          -webkit-animation:ImageN  10s ease-in-out  ;
         -moz-animation:ImageN 10s  ease-in-out  ; 
@@ -31,7 +29,6 @@ border: none;
       font-weight: 400;
       font-family: 'lux', sans-serif;
       font-size: 1.5em;
-
     }
     .card-text{
       font-weight: 200;
@@ -50,11 +47,9 @@ border: none;
     html { 
       font-size: 62.5%; } 
     body {
-      
       background-image: url("./assets/dg4.png") ;
       background-size: cover;
       backdrop-filter: blur(0.8) opacity(0.6);
-
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
@@ -72,7 +67,7 @@ border: none;
     /* Typography
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
     h1, h2, h3, h4, h5, h6 { 
-      font-weight: 300;
+      font-weight:300;
       margin-top: 0;
       margin-bottom: 2rem; }
     h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
@@ -528,8 +523,6 @@ border: none;
                 transform-style: preserve-3d;
           -webkit-perspective: 1000px;
                   perspective: 1000px;
-                 
-
       }
       
       .front,
@@ -550,6 +543,7 @@ border: none;
           color: #fff;
           font-size: 1rem;
           width: 18rem;
+          margin: 2%;
       }
       
       .back{

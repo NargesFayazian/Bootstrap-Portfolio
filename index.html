@@ -72,37 +72,18 @@
       <div class="toggle" id="toggle" onclick="menu-expand()">
         <i class="fa fa-plus" id="plus"></i>
       </div>
-      <div class="menu" id="menu">
-        <a href="#"><i class="fa fa-home"></i></a>
-        <a href="https://github.com/NargesFayazian" target="_blank"><i class="fa fa-github"></i></a>
-        <a href="http://www.linkedin.com/in/narges-fayazian-51503834" target="_blank"><i class="fa fa-linkedin"></i></a>
-        <a href="./portfolio.html" alt="resume"><i class="fa fa-file"></i></a>
-      </div>
+    </div>
+    <div class="menu" id="menu">
+      <a href="./resume.html"target="_blank" alt="Information"><i class="far fa-address-card"></i></a>
+      <a href="https://github.com/NargesFayazian" target="_blank" alt="Github Account"><i class="fa fa-github"></i></a>
+      <a href="http://www.linkedin.com/in/narges-fayazian-51503834" target="_blank" alt="linkedin Account"><i class="fa fa-linkedin"></i></a>
+      <a href="./resume.html" alt="resume" alt="Resume"><i class="fa fa-file"></i></a>
+    </div>
     </ul>
   </div>
-  <script>
-    var i = 0;
-    function expand() {
-      if (i == 0) {
-        document.getElementById("toggle").style.top = "100px";
-        document.getElementById("toggle").style.right = "120px";
-        document.getElementById("menu").style.top = "100px";
-        document.getElementById("menu").style.right = "120px";
-        document.getElementById("menu").style.transform = "scale(3)";
-        document.getElementById("plus").style.transform = "rotate(45deg)";
-        i = 1;
-      }
-      else {
-        document.getElementById("toggle").style.top = "20px";
-        document.getElementById("toggle").style.right = "20px";
-        document.getElementById("menu").style.top = "20px";
-        document.getElementById("menu").style.right = "20px";
-        document.getElementById("menu").style.transform = "scale(0)";
-        document.getElementById("plus").style.transform = "rotate(0deg)";
-        i = 0;
-      }
-    }
-  </script>
+
+  
+
 </body>
 <script src="script.js"></script>
 </html>

@@ -55,6 +55,7 @@ border: none;
     font-weight: 400;
     font-family: 'lux', sans-serif;
     overflow-y: scroll;
+    overflow-x: hidden;
     }
     .card-title{
       color: #333;

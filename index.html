@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Felipa|Geostar+Fill|Libre+Barcode+39+Extended+Text|Press+Start+2P|Stalemate|Orbitron|Rock+Salt|Lobster|Audiowide|+One&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css?family=Felipa|Geostar+Fill|Libre+Barcode+39+Extended+Text|Press+Start+2P|Stalemate|Orbitron|Rock+Salt|Lobster|Audiowide|+One&display=swap"
     rel="stylesheet">
   <title>Portfolio</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -27,6 +29,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <style>
   .myImg {
@@ -35,6 +38,7 @@
     height: 100%;
     z-index: -1;
   }
+
   .base {
     position: relative;
     width: 100%;
@@ -43,6 +47,7 @@
     overflow-x: hidden;
   }
 </style>
+
 <body>
   <div class="base">
     <img src="./assets/bg2.png" class="myImg"></img>
@@ -51,39 +56,57 @@
       <div id="background-wrap"><img src="./assets/fish-2.png" class="x1"></img></div>
       <div id="background-wrap"><img src="./assets/fish-3.png" class="x11"></img></div>
       <div id="background-wrap"><img src="./assets/fish-6.png" class="x12"></img></div>
-      <div id="background-wrap"><div class="bubble x2"></div></div>
-      <div id="background-wrap"><div class="bubble x3"></div></div>
-      <div id="background-wrap"><div class="bubble x4"></div></div>
-      <div id="background-wrap"><div class="bubble x5"></div></div>
+      <div id="background-wrap">
+        <div class="bubble x2"></div>
       </div>
-      <!-- -------------------------------------------------------------------------- -->
-      <div id="background-wrap"><img src="./assets/fish-1.png" class="x6"></img></div>
-        <div id="background-wrap"><img src="./assets/fish-4.png" class="x13"></img></div>
-          <div id="background-wrap"><img src="./assets/fish-5.png" class="x14"></img></div>
-            <div id="background-wrap"><div class="squer x7"></div></div>
-            <div id="background-wrap"><div class="squer x8"></div></div>
-            <div id="background-wrap"><div class="squer  x9"></div></div>
-            <div id="background-wrap"><div class="squer  x10"></div></div>
-      <!-----------------------------plant----------------------------------------------- -->
-      <div id="background-wrap"><img src="./assets/plant-4.png" class="plant_3"></img></div>
-        <div id="background-wrap"><img src="./assets/plant-2.png" class="plant_2"></img></div>
+      <div id="background-wrap">
+        <div class="bubble x3"></div>
+      </div>
+      <div id="background-wrap">
+        <div class="bubble x4"></div>
+      </div>
+      <div id="background-wrap">
+        <div class="bubble x5"></div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------------------- -->
+    <div id="background-wrap"><img src="./assets/fish-1.png" class="x6"></img></div>
+    <div id="background-wrap"><img src="./assets/fish-4.png" class="x13"></img></div>
+    <div id="background-wrap"><img src="./assets/fish-5.png" class="x14"></img></div>
+    <div id="background-wrap">
+      <div class="squer x7"></div>
+    </div>
+    <div id="background-wrap">
+      <div class="squer x8"></div>
+    </div>
+    <div id="background-wrap">
+      <div class="squer  x9"></div>
+    </div>
+    <div id="background-wrap">
+      <div class="squer  x10"></div>
+    </div>
+    <!-----------------------------plant----------------------------------------------- -->
+    <div id="background-wrap"><img src="./assets/plant-4.png" class="plant_3"></img></div>
+    <div id="background-wrap"><img src="./assets/plant-2.png" class="plant_2"></img></div>
     <!-- -------------------menu Right----------------------------------------------- -->
     <ul class=" nav justify-content-end">
       <div class="toggle" id="toggle" onclick="menu-expand()">
         <i class="fa fa-plus" id="plus"></i>
       </div>
-    </div>
-    <div class="menu" id="menu">
-      <a href="./resume.html"target="_blank" alt="Information"><i class="far fa-address-card"></i></a>
-      <a href="https://github.com/NargesFayazian" target="_blank" alt="Github Account"><i class="fa fa-github"></i></a>
-      <a href="http://www.linkedin.com/in/narges-fayazian-51503834" target="_blank" alt="linkedin Account"><i class="fa fa-linkedin"></i></a>
-      <a href="./resume.html" alt="resume" alt="Resume"><i class="fa fa-file"></i></a>
-    </div>
-    </ul>
+  </div>
+  <div class="menu" id="menu">
+    <a href="./resume.html" target="_blank" alt="Information"><i class="far fa-address-card"></i></a>
+    <a href="https://github.com/NargesFayazian" target="_blank" alt="Github Account"><i class="fab fa-github"></i></a>
+    <a href="http://www.linkedin.com/in/narges-fayazian-51503834" target="_blank" alt="linkedin Account"><i
+        class="fab fa-linkedin"></i></a>
+    <a href="./resume.html" alt="resume" alt="Resume"><i class="fa fa-file"></i></a>
+  </div>
+  </ul>
   </div>
 
-  
+
 
 </body>
 <script src="script.js"></script>
+
 </html>
